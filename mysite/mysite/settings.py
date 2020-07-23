@@ -120,9 +120,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = [
+STATIC_ROOT = "/var/www/https://bloomplace.pythonanywhere.com/static/" 
+
+STATICFILES_DIRS = [
     "C:/Users/USER/ecommercial/mysite/store/templates/store"
 ]
+
 
 MEDIA_URL = '/images/'
 
