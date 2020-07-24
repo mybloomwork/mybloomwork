@@ -121,7 +121,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
  
 STATICFILES_DIRS = [
-    "C:/Users/USER/ecommercial/mysite/store/templates/store"
+    "C:/Users/USER/selling/mysite/store/templates/store"
     "C:/Users/USER/selling/mysite/static/images"
 ]
 
