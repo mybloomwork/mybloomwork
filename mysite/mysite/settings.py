@@ -119,10 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
- 
+
 STATICFILES_DIRS = [
-    "C:/Users/USER/selling/mysite/store/templates/store"
-    "C:/Users/USER/selling/mysite/static/images"
+    os.path.join(BASE_DIR, 'static')
 ]
 
 
